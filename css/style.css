@@ -75,6 +75,7 @@ html{
 
 #body-text{
   margin: 0 150px;
+  width: 960px;
 }
 
 #pinfo {
@@ -102,54 +103,48 @@ footer{
 
 
 #profilepicture{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 2px;
-  margin: 0 42%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  margin-left: 525px;
+  
 }
-
-.center{
-  position: absolute;
-  margin: 0% 5%; 
-  width: 88%;
-  height: auto;
-  padding: 10px;
-  padding-bottom: 15px;
-  background-color: #F5F5F5;
-}
-
-
-.recipe-content{
-  height: 100px;
-  width: 200 px;
-  vertical-align: middle;
-  display: inline;
+main{
+    float: left;
+    width: 60%;
+    margin: 0 5%; 
+    outline: 2px solid #1E3F66;
+    padding: 5px;
+    }
+    
+#extras{
+    float: left; 
+    width: 20%;
+    margin: 0 5% 0 0; 
+    outline: 2px solid #1E3F66;
 }
 
 .recipe-title{
-  position: relative;
-  float: right;
   text-align: center;
-  margin: 5px 750px 0px 0px ;
-  font-size: 14pt;
-  color:#1E3F66;
-  font-family: Helvetica, sans-serif;
-  padding: 5px;
 }
 
-.ingredient{
-  position: relative;
-  float: right;
-  margin: -400px 400px 300px 350px ;
-  color:#1E3F66;
-  font-family: Helvetica, sans-serif;
-  display: inline;
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.ingredient2{
-  float: right;
-  margin: -400px 400px 0px 0px ;
-  color:#1E3F66;
-  font-family: Helvetica, sans-serif;
-  display: inline;
+#upcoming{
+  text-align: center;
+}
+
+.upcomingpicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
