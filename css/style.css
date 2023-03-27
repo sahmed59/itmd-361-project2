@@ -83,6 +83,12 @@ html{
   width: 100%;
   position: relative;
 }
+#profilepicture{
+  float: right;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
 
 #contacts{
   text-align: center;
@@ -101,19 +107,6 @@ footer{
 
 footer a{
   color: #FFFFFF
-}
-
-.container {
-  position: relative;
-  height: 250px;
-}
-.profilepicture{
-  display: block;
-  width: 50%;
-  text-align:center;
-  margin: 0;
-  position: absolute;
-  margin-left:25%;  
 }
 
 main{
